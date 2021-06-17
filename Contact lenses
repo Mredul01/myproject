@@ -1,0 +1,33 @@
+@relation contact-lenses
+@attribute Age numeric
+@attribute Spectacle_prescription {myope,hypermetrope}
+@attribute Astig {yes,no}
+@attribute Tear_prod {normal,reduced}
+@attribute Lens {soft,none}
+
+@data
+25,myope,no,normal,soft
+14,hypermetrope,no,normal,soft
+12,myope,no,normal,soft
+37,hypermetrope,no,normal,soft
+56,myope,no,normal,none
+10,hypermetrope,no,normal,none
+13,hypermetrope,no,normal,none
+23,myope,no,reduced,none
+33,myope,no,reduced,none
+34,hypermetrope,no,reduced,none
+55,hypermetrope,no,reduced,none
+67,hypermetrope,no,reduced,none
+76,myope,yes,reduced,soft
+65,myope,yes,reduced,none
+44,myope,no,reduced,none
+77,myope,no,reduced,none
+28,hypermetrope,no,normal,soft
+29,myope,no,normal,none
+16,myope,no,reduced,soft
+33,hypermetrope,no,reduced,none
+43,myope,no,normal,soft
+11,myope,no,normal,none
+21,myope,no,reduced,none
+32,myope,no,reduced,none
+25,hypermetrope,no,normal,none
